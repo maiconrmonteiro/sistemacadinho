@@ -53,7 +53,7 @@ function gerarRecibo() {
             </div>
             <p>_____________________________________________</p><br><br>
             <p>Ricardo Carlos de Fraga</p>
-                <p>26.439.2719/0001-31</p>
+                <p>26.439.271/0001-31</p>
                 <p>(48) 9 8415-2125</p>
         </div>
             <div class="carimbo">

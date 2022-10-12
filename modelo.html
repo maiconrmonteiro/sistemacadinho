@@ -1,30 +1,13 @@
-var dataReal = new Date();
-    var dia = String(dataReal.getDate()).padStart(2, '0');
-    var mes = String(dataReal.getMonth() + 1).padStart(2, '0');
-    var ano = dataReal.getFullYear();
-    dataAtual = dia + '/' + mes + '/' + ano;
-    var hora = dataReal.getMinutes()
-    var controle = hora + mes + dia
-
-function gerar() {
-    var campos = window.document.getElementById('campos');
-
-    var nome = window.document.getElementById('nome');
-    var documento = window.document.getElementById('documento');
-
-    var carro = window.document.getElementById('carro');
-    var cor = window.document.getElementById('cor');
-    var placa = window.document.getElementById('placa');
-
-    var servicos1 = window.document.getElementById('servicos1');
-    var servicos2 = window.document.getElementById('servicos2');
-    var servicos3 = window.document.getElementById('servicos3');
-    var servicos4 = window.document.getElementById('servicos4');
-
-    var valor = window.document.getElementById('valor');
-
-
-    campos.innerHTML = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo/style-orcamento.css">
+</head>
+<body>
     <div class="conteudo">
         <div class="topo-orcamento">
         <div>
@@ -69,12 +52,9 @@ function gerar() {
     
         
         
-    </div>
+        </div>
+
 
     
-    
-    
-    </div>
-    `;
-
-}
+</body>
+</html>
