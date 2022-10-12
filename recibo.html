@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recibo Cadinho Martelinho de Ouro</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="impressora3.css" media="print">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" id="logoPrincipal" src="images/logo.png" alt="Logo Cadinho"></a>
+    </header>
+    <main>
+        <section class="campos" id="campos">
+            <div class="camposInputs">
+                <label class="inputs" for="valor">Valor</label>
+                <input type="number" name="campos" id="valor">
+                <label class="inputs" for="extenso">Valor por Extenso (Opcional)</label>
+                <input type="text" name="campos" id="extenso">
+                <label class="inputs" for="pagador">Pagador</label>
+                <input type="text" name="campos" id="pagador">
+                <label class="inputs" for="documento">Documento</label>
+                <input type="number" name="campos" id="documento">
+                <label class="inputs" for="referente">Referente á</label>
+                <input type="text" name="campos" id="referente">
+            </div>
+            <div class="radios">
+                <label for="PIX">PIX</label>
+                <input type="radio" name="formaPagto" id="PIX" required>
+                <label for="dinheiro">Dinheiro</label>
+                <input type="radio" name="formaPagto" id="dinheiro">
+                <label for="cartao">Cartão</label>
+                <input type="radio" name="formaPagto" id="cartao"><br>
+            </div>
+            
+            <div class="btn">
+  
+                <a href="#" class="btn-neon" onclick="gerarRecibo()">Gerar Recibo</a>
+               
+             </div>
+
+            <!--<input class="botao" type="button" value="Gerar Recibo" onclick="gerarRecibo()">-->
+
+        </section>
+    </main>
+    <footer>
+        <p>Cadinho Martelinho de Ouro</p>
+        <p>Pagina/Sistema desenvolvido por <a href="https://github.com/maiconrmonteiro" target="_blank">Maicon Monteiro</a></p>
+    </footer>
+
+    <script src="script3.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Indie+Flower&display=swap');
+/*
+Fonte: font-family: 'Indie Flower', cursive;
+Fonte: font-family: 'Chakra Petch', sans-serif;
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header > img {
+    display: none;
+}
+
+header > h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.controle {
+    display: flex;
+    justify-content: end;
+    padding-bottom: 40px;
+    padding-top: -40px;
+}
+
+
+body {
+    margin: auto;
+    width: 80vw;
+    height: 100%;
+    color: black;
+}
+
+#campos {
+    width: 85vw;
+}
+
+div {
+    color: black;
+}
+
+.recibo-pronto {
+    width: 100%;
+}
+
+#logoBranca {
+    display: none;
+}
+
+#logoPreta {
+    display: block;
+}
+
+.data {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.assinatura-ignacio > img{
+    width: 50%;
+    margin-bottom: -50px;
+}
+
+.carimbo > img {
+    display: flex;
+    width: 50%;
+}
+
+.btn {
+    display: none;
+}
+
+footer {
+    display: none;
+}
