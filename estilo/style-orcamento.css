@@ -52,3 +52,12 @@ select {
 .logo-orcamento {
     width: 250px;
 }
+
+.botoes {
+    text-align: center;
+}
+
+.botao {
+    padding: 10px;
+    margin: 10px;
+}
